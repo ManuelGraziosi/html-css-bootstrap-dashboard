@@ -1,15 +1,6 @@
-.mg_input:focus {
-    font-weight: bold;
-    /* opacity: 0.5; */
-    color: black;
-}
-
-.mg_input::placeholder {
-    font-weight: bold;
-    opacity: 0.5;
-    color: black;
-}
-
+/*
 .mg_table>:not(caption)>*>* {
     border-bottom-width: 0;
 }
+
+*/
