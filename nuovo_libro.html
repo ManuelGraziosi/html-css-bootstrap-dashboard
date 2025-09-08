@@ -69,10 +69,33 @@
                         <div id="book_title_txt" class="form-text">Titolo versione italiana</div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">Genere(tendina)</div>
-                <div class="col-12 col-lg-4">Anno</div>
-                <div class="col-12 col-lg-4">ISBN#</div>
-                <hr>
+                <div class="col-12 col-lg-4">
+                    <div class="mb-3">
+                        <label for="book_type" class="form-label">Genere</label>
+                        <select id="book_type" class="form-select" aria-label="Default select example">
+                            <option selected>Scegli il genere</option>
+                            <option value="1">Azione</option>
+                            <option value="2">Triller</option>
+                            <option value="3">Giallo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="mb-3">
+                        <label for="book_year" class="form-label">Anno di pubblicazione</label>
+                        <input type="email" class="form-control" id="book_year"
+                            placeholder="Inserisci il nome dell'autore">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="mb-3">
+                        <label for="book_isbn" class="form-label">ISBN#</label>
+                        <input type="email" class="form-control" id="book_isbn" placeholder="Inserisci il codice ISBN#">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <hr>
+                </div>
                 <div class="col-12">Note (areaText)</div>
                 <div class="col-12">CheckBox</div>
                 <div class="col-12">
