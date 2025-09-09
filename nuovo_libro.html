@@ -96,10 +96,25 @@
                 <div class="mb-3">
                     <hr>
                 </div>
-                <div class="col-12">Note (areaText)</div>
-                <div class="col-12">CheckBox</div>
                 <div class="col-12">
-                    <button class="btn btn-primary">Aggiungi Libro</button>
+                    <div class="form-group mb-3">
+                        <label class="form-label" for="NoteFloatingTextarea">Note</label>
+                        <textarea class="form-control" placeholder="Inserisci eventuali node sul libro"
+                            id="NoteFloatingTextarea" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                        <label class="form-check-label" for="checkDefault">
+                            Disponibile anche in digitale
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+
+                    <button class="btn btn-primary" type="submit">Aggiungi libro</button>
+
                 </div>
             </div>
         </section>
